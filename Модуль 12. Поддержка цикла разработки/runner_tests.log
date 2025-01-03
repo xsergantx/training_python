@@ -1,0 +1,9 @@
+2025-01-03 19:56:45,714 | WARNING | Неверный тип данных для объекта Runner
+Имя может быть только строкой, передано int
+2025-01-03 19:56:45,714 | WARNING | Traceback (most recent call last):
+  File "D:\Proekts\training_python\pythonProject\Модуль 12. Поддержка цикла разработки\tests_12_4.py", line 111, in test_run
+    runner = Runner(2)
+  File "D:\Proekts\training_python\pythonProject\Модуль 12. Поддержка цикла разработки\tests_12_4.py", line 43, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано int
+
